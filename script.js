@@ -1,14 +1,6 @@
 // script.js
 
-/* testing function 10 times:
-for (let i = 0; i < 10; i++) {
-  const result = gardenSun(gardenSunButterflies, weights);
-  console.log(`Pick ${i + 1}:`, result);
-}
-*/
-
-// buttons onclick tied to specific functions
-
+// butterfly sets
 const gardenSunButterflies = [
   "Pink Cattleheart",
   "Postman",
@@ -63,6 +55,7 @@ const fieldRainButterflies = [
   "Red-Spotted Purple",
 ];
 
+// rarities
 const weights = [30, 30, 13, 13, 7, 7];
 
 // garden location
