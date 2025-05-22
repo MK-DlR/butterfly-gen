@@ -1,0 +1,50 @@
+GARDEN (🌻)
+☀️ Sunny Weather
+(C) Pink Cattleheart 30%
+(C) Postman 30%
+(UC) Lacewing 13%
+(UC) Scarlet Mormon 13%
+(R) Great Orange-tip 7%
+(R) Palmfly 7%
+
+🌧️ Rainy Weather
+(C) Black and White Helicon 30%
+(C) Starry Night Cracker 30%
+(UC) Tailed Jay 13%
+(UC) Great Eggfly 13%
+(R) Atlas Moth 7%
+(R) Queen Alexandra Birdwing 7%
+
+FOREST (🌳)
+☀️ Sunny Weather
+(C) Rose 30%
+(C) Green Birdwing 30%
+(UC) Clouded Mother-of-Pearl 13%
+(UC) Blue Pansy 13%
+(R) Dero Clearwing 7%
+(R) Forest Mother-of-Pearl 7%
+
+🌧️ Rainy Weather
+(C) Banded Morpho 30%
+(C) Brazilian Owl 30%
+(UC) Atala 13%
+(UC) Black-Tipped Diadem 13%
+(R) Bat Wing 7%
+(R) Blue Cracker 7%
+
+FIELD (🌾)
+☀️ Sunny Weather
+(C) Cloudless Sulphur 30%
+(C) Juniper Hairstreak 30%
+(UC) Question Mark 13%
+(UC) Monarch 13%
+(R) Hummingbird Moth 7%
+(R) Giant Swallowtail 7%
+
+🌧️ Rainy Weather
+(C) Bronze Copper 30%
+(C) Little Wood-Satyr 30%
+(UC) Mourning Cloak 13%
+(UC) Harvester 13%
+(R) Tiger Swallowtail 7%
+(R) Red-Spotted Purple 7%
