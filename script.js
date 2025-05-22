@@ -1,6 +1,13 @@
 // script.js
 
-// use if/else statement instead to select locations and weather
+/* testing function 10 times:
+for (let i = 0; i < 10; i++) {
+  const result = gardenSun(gardenSunButterflies, weights);
+  console.log(`Pick ${i + 1}:`, result);
+}
+*/
+
+// buttons onclick tied to specific functions
 
 const gardenSunButterflies = [
   "Pink Cattleheart",
@@ -59,6 +66,7 @@ const fieldRainButterflies = [
 const weights = [30, 30, 13, 13, 7, 7];
 
 // garden location
+// sun
 function gardenSun(gardenSunButterflies, weights) {
   if (gardenSunButterflies.length !== weights.length) {
     throw new Error(
@@ -98,31 +106,202 @@ function gardenSun(gardenSunButterflies, weights) {
   };
 }
 
-/* testing function 10 times:
-for (let i = 0; i < 10; i++) {
-  const result = gardenSun(gardenSunButterflies, weights);
-  console.log(`Pick ${i + 1}:`, result);
-}
-*/
+// rain
+function gardenRain(gardenRainButterflies, weights) {
+  if (gardenRainButterflies.length !== weights.length) {
+    throw new Error(
+      "gardenRainButterflies and weights must be of the same size"
+    );
+  }
 
-function gardenRain() {
-  //code
+  if (!gardenRainButterflies.length) {
+    throw new Error("gardenRainButterflies must not be empty");
+  }
+
+  const cumulativeWeights = [];
+  for (let i = 0; i < weights.length; i += 1) {
+    cumulativeWeights[i] = weights[i] + (cumulativeWeights[i - 1] || 0);
+  }
+
+  const maxCumulativeWeight = cumulativeWeights[cumulativeWeights.length - 1];
+  const randomNumber = maxCumulativeWeight * Math.random();
+
+  for (
+    let itemIndex = 0;
+    itemIndex < gardenRainButterflies.length;
+    itemIndex += 1
+  ) {
+    if (cumulativeWeights[itemIndex] >= randomNumber) {
+      return {
+        item: gardenRainButterflies[itemIndex],
+        index: itemIndex,
+      };
+    }
+  }
+
+  // fallback return
+  return {
+    item: gardenRainButterflies[gardenRainButterflies.length - 1],
+    index: gardenRainButterflies.length - 1,
+  };
 }
 
 // forest location
-function forestSun() {
-  //code
+// sun
+function forestSun(forestSunButterflies, weights) {
+  if (forestSunButterflies.length !== weights.length) {
+    throw new Error(
+      "forestSunButterflies and weights must be of the same size"
+    );
+  }
+
+  if (!forestSunButterflies.length) {
+    throw new Error("forestSunButterflies must not be empty");
+  }
+
+  const cumulativeWeights = [];
+  for (let i = 0; i < weights.length; i += 1) {
+    cumulativeWeights[i] = weights[i] + (cumulativeWeights[i - 1] || 0);
+  }
+
+  const maxCumulativeWeight = cumulativeWeights[cumulativeWeights.length - 1];
+  const randomNumber = maxCumulativeWeight * Math.random();
+
+  for (
+    let itemIndex = 0;
+    itemIndex < forestSunButterflies.length;
+    itemIndex += 1
+  ) {
+    if (cumulativeWeights[itemIndex] >= randomNumber) {
+      return {
+        item: forestSunButterflies[itemIndex],
+        index: itemIndex,
+      };
+    }
+  }
+
+  // fallback return
+  return {
+    item: forestSunButterflies[forestSunButterflies.length - 1],
+    index: forestSunButterflies.length - 1,
+  };
 }
 
-function forestRain() {
-  //code
+// rain
+function forestRain(forestRainButterflies, weights) {
+  if (forestRainButterflies.length !== weights.length) {
+    throw new Error(
+      "forestRainButterflies and weights must be of the same size"
+    );
+  }
+
+  if (!forestRainButterflies.length) {
+    throw new Error("forestRainButterflies must not be empty");
+  }
+
+  const cumulativeWeights = [];
+  for (let i = 0; i < weights.length; i += 1) {
+    cumulativeWeights[i] = weights[i] + (cumulativeWeights[i - 1] || 0);
+  }
+
+  const maxCumulativeWeight = cumulativeWeights[cumulativeWeights.length - 1];
+  const randomNumber = maxCumulativeWeight * Math.random();
+
+  for (
+    let itemIndex = 0;
+    itemIndex < forestRainButterflies.length;
+    itemIndex += 1
+  ) {
+    if (cumulativeWeights[itemIndex] >= randomNumber) {
+      return {
+        item: forestRainButterflies[itemIndex],
+        index: itemIndex,
+      };
+    }
+  }
+
+  // fallback return
+  return {
+    item: forestRainButterflies[forestRainButterflies.length - 1],
+    index: forestRainButterflies.length - 1,
+  };
 }
 
 // field location
-function fieldSun() {
-  //code
+//sun
+function fieldSun(fieldSunButterflies, weights) {
+  if (fieldSunButterflies.length !== weights.length) {
+    throw new Error("fieldSunButterflies and weights must be of the same size");
+  }
+
+  if (!fieldSunButterflies.length) {
+    throw new Error("fieldSunButterflies must not be empty");
+  }
+
+  const cumulativeWeights = [];
+  for (let i = 0; i < weights.length; i += 1) {
+    cumulativeWeights[i] = weights[i] + (cumulativeWeights[i - 1] || 0);
+  }
+
+  const maxCumulativeWeight = cumulativeWeights[cumulativeWeights.length - 1];
+  const randomNumber = maxCumulativeWeight * Math.random();
+
+  for (
+    let itemIndex = 0;
+    itemIndex < fieldSunButterflies.length;
+    itemIndex += 1
+  ) {
+    if (cumulativeWeights[itemIndex] >= randomNumber) {
+      return {
+        item: fieldSunButterflies[itemIndex],
+        index: itemIndex,
+      };
+    }
+  }
+
+  // fallback return
+  return {
+    item: fieldSunButterflies[fieldSunButterflies.length - 1],
+    index: fieldSunButterflies.length - 1,
+  };
 }
 
-function fieldRain() {
-  //code
+// rain
+function fieldRain(fieldRainButterflies, weights) {
+  if (fieldRainButterflies.length !== weights.length) {
+    throw new Error(
+      "fieldRainButterflies and weights must be of the same size"
+    );
+  }
+
+  if (!fieldRainButterflies.length) {
+    throw new Error("fieldRainButterflies must not be empty");
+  }
+
+  const cumulativeWeights = [];
+  for (let i = 0; i < weights.length; i += 1) {
+    cumulativeWeights[i] = weights[i] + (cumulativeWeights[i - 1] || 0);
+  }
+
+  const maxCumulativeWeight = cumulativeWeights[cumulativeWeights.length - 1];
+  const randomNumber = maxCumulativeWeight * Math.random();
+
+  for (
+    let itemIndex = 0;
+    itemIndex < fieldRainButterflies.length;
+    itemIndex += 1
+  ) {
+    if (cumulativeWeights[itemIndex] >= randomNumber) {
+      return {
+        item: fieldRainButterflies[itemIndex],
+        index: itemIndex,
+      };
+    }
+  }
+
+  // fallback return
+  return {
+    item: fieldRainButterflies[fieldRainButterflies.length - 1],
+    index: fieldRainButterflies.length - 1,
+  };
 }
