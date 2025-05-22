@@ -89,7 +89,11 @@ function gardenSun() {
         item: gardenSunButterflies[itemIndex],
         index: itemIndex,
       };
-      document.getElementById("results").innerHTML = result.item;
+      const logEntry = document.createElement("div");
+      logEntry.textContent = `${
+        document.getElementById("results").children.length + 1
+      }. ${result.item}`;
+      document.getElementById("results").appendChild(logEntry);
       console.log(result);
       return result;
     }
@@ -133,7 +137,11 @@ function gardenRain() {
         item: gardenRainButterflies[itemIndex],
         index: itemIndex,
       };
-      document.getElementById("results").innerHTML = result.item;
+      const logEntry = document.createElement("div");
+      logEntry.textContent = `${
+        document.getElementById("results").children.length + 1
+      }. ${result.item}`;
+      document.getElementById("results").appendChild(logEntry);
       console.log(result);
       return result;
     }
@@ -178,7 +186,11 @@ function forestSun() {
         item: forestSunButterflies[itemIndex],
         index: itemIndex,
       };
-      document.getElementById("results").innerHTML = result.item;
+      const logEntry = document.createElement("div");
+      logEntry.textContent = `${
+        document.getElementById("results").children.length + 1
+      }. ${result.item}`;
+      document.getElementById("results").appendChild(logEntry);
       console.log(result);
       return result;
     }
@@ -222,7 +234,11 @@ function forestRain() {
         item: forestRainButterflies[itemIndex],
         index: itemIndex,
       };
-      document.getElementById("results").innerHTML = result.item;
+      const logEntry = document.createElement("div");
+      logEntry.textContent = `${
+        document.getElementById("results").children.length + 1
+      }. ${result.item}`;
+      document.getElementById("results").appendChild(logEntry);
       console.log(result);
       return result;
     }
@@ -265,7 +281,11 @@ function fieldSun() {
         item: fieldSunButterflies[itemIndex],
         index: itemIndex,
       };
-      document.getElementById("results").innerHTML = result.item;
+      const logEntry = document.createElement("div");
+      logEntry.textContent = `${
+        document.getElementById("results").children.length + 1
+      }. ${result.item}`;
+      document.getElementById("results").appendChild(logEntry);
       console.log(result);
       return result;
     }
@@ -309,7 +329,11 @@ function fieldRain() {
         item: fieldRainButterflies[itemIndex],
         index: itemIndex,
       };
-      document.getElementById("results").innerHTML = result.item;
+      const logEntry = document.createElement("div");
+      logEntry.textContent = `${
+        document.getElementById("results").children.length + 1
+      }. ${result.item}`;
+      document.getElementById("results").appendChild(logEntry);
       console.log(result);
       return result;
     }
