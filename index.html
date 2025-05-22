@@ -8,7 +8,23 @@
 </head>
 <body>
     <div id="content">
-        Butterfly time!
+        <h3>Select Location & Weather</h3>
+        <div id="button-container">
+            <div id="garden">
+                <button class="button sun" onclick="gardenSun()">Garden Sun</button>
+                <button class="button rain" onclick="gardenRain()">Garden Rain</button>
+            </div>
+            <div id="forest">
+                <button class="button sun" onclick="forestSun()">Forest Sun</button>
+                <button class="button rain" onclick="forestRain()">Forest Rain</button>
+            </div>
+            <div id="field">
+                <button class="button sun" onclick="fieldSun()">Field Sun</button>
+                <button class="button rain" onclick="fieldRain()">Field Rain</button>
+            </div>
+        </div>
+        <div id="results">
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

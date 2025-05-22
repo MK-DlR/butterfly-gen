@@ -67,7 +67,7 @@ const weights = [30, 30, 13, 13, 7, 7];
 
 // garden location
 // sun
-function gardenSun(gardenSunButterflies, weights) {
+function gardenSun() {
   if (gardenSunButterflies.length !== weights.length) {
     throw new Error(
       "gardenSunButterflies and weights must be of the same size"
@@ -92,22 +92,26 @@ function gardenSun(gardenSunButterflies, weights) {
     itemIndex += 1
   ) {
     if (cumulativeWeights[itemIndex] >= randomNumber) {
-      return {
+      const result = {
         item: gardenSunButterflies[itemIndex],
         index: itemIndex,
       };
+      document.getElementById("results").innerHTML = result.item;
+      console.log(result);
+      return result;
     }
   }
 
-  // fallback return
-  return {
+  const fallback = {
     item: gardenSunButterflies[gardenSunButterflies.length - 1],
     index: gardenSunButterflies.length - 1,
   };
+  document.getElementById("results").innerHTML = fallback.item;
+  return fallback;
 }
 
 // rain
-function gardenRain(gardenRainButterflies, weights) {
+function gardenRain() {
   if (gardenRainButterflies.length !== weights.length) {
     throw new Error(
       "gardenRainButterflies and weights must be of the same size"
@@ -132,23 +136,27 @@ function gardenRain(gardenRainButterflies, weights) {
     itemIndex += 1
   ) {
     if (cumulativeWeights[itemIndex] >= randomNumber) {
-      return {
+      const result = {
         item: gardenRainButterflies[itemIndex],
         index: itemIndex,
       };
+      document.getElementById("results").innerHTML = result.item;
+      console.log(result);
+      return result;
     }
   }
 
-  // fallback return
-  return {
+  const fallback = {
     item: gardenRainButterflies[gardenRainButterflies.length - 1],
     index: gardenRainButterflies.length - 1,
   };
+  document.getElementById("results").innerHTML = fallback.item;
+  return fallback;
 }
 
 // forest location
 // sun
-function forestSun(forestSunButterflies, weights) {
+function forestSun() {
   if (forestSunButterflies.length !== weights.length) {
     throw new Error(
       "forestSunButterflies and weights must be of the same size"
@@ -173,22 +181,26 @@ function forestSun(forestSunButterflies, weights) {
     itemIndex += 1
   ) {
     if (cumulativeWeights[itemIndex] >= randomNumber) {
-      return {
+      const result = {
         item: forestSunButterflies[itemIndex],
         index: itemIndex,
       };
+      document.getElementById("results").innerHTML = result.item;
+      console.log(result);
+      return result;
     }
   }
 
-  // fallback return
-  return {
+  const fallback = {
     item: forestSunButterflies[forestSunButterflies.length - 1],
     index: forestSunButterflies.length - 1,
   };
+  document.getElementById("results").innerHTML = fallback.item;
+  return fallback;
 }
 
 // rain
-function forestRain(forestRainButterflies, weights) {
+function forestRain() {
   if (forestRainButterflies.length !== weights.length) {
     throw new Error(
       "forestRainButterflies and weights must be of the same size"
@@ -213,23 +225,27 @@ function forestRain(forestRainButterflies, weights) {
     itemIndex += 1
   ) {
     if (cumulativeWeights[itemIndex] >= randomNumber) {
-      return {
+      const result = {
         item: forestRainButterflies[itemIndex],
         index: itemIndex,
       };
+      document.getElementById("results").innerHTML = result.item;
+      console.log(result);
+      return result;
     }
   }
 
-  // fallback return
-  return {
+  const fallback = {
     item: forestRainButterflies[forestRainButterflies.length - 1],
     index: forestRainButterflies.length - 1,
   };
+  document.getElementById("results").innerHTML = fallback.item;
+  return fallback;
 }
 
 // field location
 //sun
-function fieldSun(fieldSunButterflies, weights) {
+function fieldSun() {
   if (fieldSunButterflies.length !== weights.length) {
     throw new Error("fieldSunButterflies and weights must be of the same size");
   }
@@ -252,22 +268,26 @@ function fieldSun(fieldSunButterflies, weights) {
     itemIndex += 1
   ) {
     if (cumulativeWeights[itemIndex] >= randomNumber) {
-      return {
+      const result = {
         item: fieldSunButterflies[itemIndex],
         index: itemIndex,
       };
+      document.getElementById("results").innerHTML = result.item;
+      console.log(result);
+      return result;
     }
   }
 
-  // fallback return
-  return {
+  const fallback = {
     item: fieldSunButterflies[fieldSunButterflies.length - 1],
     index: fieldSunButterflies.length - 1,
   };
+  document.getElementById("results").innerHTML = fallback.item;
+  return fallback;
 }
 
 // rain
-function fieldRain(fieldRainButterflies, weights) {
+function fieldRain() {
   if (fieldRainButterflies.length !== weights.length) {
     throw new Error(
       "fieldRainButterflies and weights must be of the same size"
@@ -292,16 +312,20 @@ function fieldRain(fieldRainButterflies, weights) {
     itemIndex += 1
   ) {
     if (cumulativeWeights[itemIndex] >= randomNumber) {
-      return {
+      const result = {
         item: fieldRainButterflies[itemIndex],
         index: itemIndex,
       };
+      document.getElementById("results").innerHTML = result.item;
+      console.log(result);
+      return result;
     }
   }
 
-  // fallback return
-  return {
+  const fallback = {
     item: fieldRainButterflies[fieldRainButterflies.length - 1],
     index: fieldRainButterflies.length - 1,
   };
+  document.getElementById("results").innerHTML = fallback.item;
+  return fallback;
 }
