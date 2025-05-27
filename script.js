@@ -2,57 +2,57 @@
 
 // butterfly sets
 const gardenSunButterflies = [
-  "Pink Cattleheart",
-  "Postman",
-  "Lacewing",
-  "Scarlet Mormon",
-  "Great Orange-tip",
-  "Palmfly",
+  "Pink Cattleheart Butterfly (Common)",
+  "Postman Butterfly (Common)",
+  "Lacewing Butterfly (Uncommon)",
+  "Scarlet Mormon Butterfly (Uncommon)",
+  "Great Orange-tip Butterfly (Rare)",
+  "Palmfly Butterfly (Rare)",
 ];
 
 const gardenRainButterflies = [
-  "Black and White Helicon",
-  "Starry Night Cracker",
-  "Tailed Jay",
-  "Great Eggfly",
-  "Atlas Moth",
-  "Queen Alexandra Birdwing",
+  "Black and White Helicon Butterfly (Common)",
+  "Starry Night Cracker Butterfly (Common)",
+  "Tailed Jay Butterfly (Uncommon)",
+  "Great Eggfly Butterfly (Uncommon)",
+  "Atlas Moth (Rare)",
+  "Queen Alexandra Birdwing Butterfly (Rare)",
 ];
 
 const forestSunButterflies = [
-  "Rose",
-  "Green Birdwing",
-  "Clouded Mother-of-Pearl",
-  "Blue Pansy",
-  "Dero Clearwing",
-  "Forest Mother-of-Pearl",
+  "Rose Butterfly (Common)",
+  "Green Birdwing Butterfly (Common)",
+  "Clouded Mother-of-Pearl Butterfly (Uncommon)",
+  "Blue Pansy Butterfly (Uncommon)",
+  "Dero Clearwing Butterfly (Rare)",
+  "Forest Mother-of-Pearl Butterfly (Rare)",
 ];
 
 const forestRainButterflies = [
-  "Banded Morpho",
-  "Brazilian Owl",
-  "Atala",
-  "Black-Tipped Diadem",
-  "Bat Wing",
-  "Blue Cracker",
+  "Banded Morpho Butterfly (Common)",
+  "Brazilian Owl Butterfly (Common)",
+  "Atala Butterfly (Uncommon)",
+  "Black-Tipped Diadem Butterfly (Uncommon)",
+  "Bat Wing Butterfly (Rare)",
+  "Blue Cracker Butterfly (Rare)",
 ];
 
 const fieldSunButterflies = [
-  "Cloudless Sulphur",
-  "Juniper Hairstreak",
-  "Question Mark",
-  "Monarch",
-  "Hummingbird Moth",
-  "Giant Swallowtail",
+  "Cloudless Sulphur Butterfly (Common)",
+  "Juniper Hairstreak Butterfly (Common)",
+  "Question Mark Butterfly (Uncommon)",
+  "Monarch Butterfly (Uncommon)",
+  "Hummingbird Moth (Rare)",
+  "Giant Swallowtail Butterfly (Rare)",
 ];
 
 const fieldRainButterflies = [
-  "Bronze Copper",
-  "Little Wood-Satyr",
-  "Mourning Cloak",
-  "Harvester",
-  "Tiger Swallowtail",
-  "Red-Spotted Purple",
+  "Bronze Copper Butterfly (Common)",
+  "Little Wood-Satyr Butterfly (Common)",
+  "Mourning Cloak Butterfly (Uncommon)",
+  "Harvester Butterfly (Uncommon)",
+  "Tiger Swallowtail Butterfly (Rare)",
+  "Red-Spotted Purple Butterfly (Rare)",
 ];
 
 // rarities
