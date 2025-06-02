@@ -42,17 +42,7 @@
     justify-content: center;
 }
 
-#garden {
-    display: flex;
-    flex-direction: column;
-}
-
-#forest {
-    display: flex;
-    flex-direction: column;
-}
-
-#field {
+#garden, #forest, #field {
     display: flex;
     flex-direction: column;
 }
