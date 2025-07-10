@@ -2,57 +2,57 @@
 
 // butterfly sets
 const gardenSunButterflies = [
-  "Pink Cattleheart Butterfly (Common)",
-  "Postman Butterfly (Common)",
-  "Lacewing Butterfly (Uncommon)",
-  "Scarlet Mormon Butterfly (Uncommon)",
-  "Great Orange-tip Butterfly (Rare)",
-  "Palmfly Butterfly (Rare)",
+  "1x Pink Cattleheart Butterfly (Common) from the Garden!",
+  "1x Postman Butterfly (Common) from the Garden!",
+  "1x Lacewing Butterfly (Uncommon) from the Garden!",
+  "1x Scarlet Mormon Butterfly (Uncommon) from the Garden!",
+  "1x Great Orange-tip Butterfly (Rare) from the Garden!",
+  "1x Palmfly Butterfly (Rare) from the Garden!",
 ];
 
 const gardenRainButterflies = [
-  "Black and White Helicon Butterfly (Common)",
-  "Starry Night Cracker Butterfly (Common)",
-  "Tailed Jay Butterfly (Uncommon)",
-  "Great Eggfly Butterfly (Uncommon)",
-  "Atlas Moth (Rare)",
-  "Queen Alexandra Birdwing Butterfly (Rare)",
+  "1x Black and White Helicon Butterfly (Common) from the Garden!",
+  "1x Starry Night Cracker Butterfly (Common) from the Garden!",
+  "1x Tailed Jay Butterfly (Uncommon) from the Garden!",
+  "1x Great Eggfly Butterfly (Uncommon) from the Garden!",
+  "1x Atlas Moth (Rare) from the Garden!",
+  "1x Queen Alexandra Birdwing Butterfly (Rare) from the Garden!",
 ];
 
 const forestSunButterflies = [
-  "Rose Butterfly (Common)",
-  "Green Birdwing Butterfly (Common)",
-  "Clouded Mother-of-Pearl Butterfly (Uncommon)",
-  "Blue Pansy Butterfly (Uncommon)",
-  "Dero Clearwing Butterfly (Rare)",
-  "Forest Mother-of-Pearl Butterfly (Rare)",
+  "1x Rose Butterfly (Common) from the Forest!",
+  "1x Green Birdwing Butterfly (Common) from the Forest!",
+  "1x Clouded Mother-of-Pearl Butterfly (Uncommon) from the Forest!",
+  "1x Blue Pansy Butterfly (Uncommon) from the Forest!",
+  "1x Dero Clearwing Butterfly (Rare) from the Forest!",
+  "1x Forest Mother-of-Pearl Butterfly (Rare) from the Forest!",
 ];
 
 const forestRainButterflies = [
-  "Banded Morpho Butterfly (Common)",
-  "Brazilian Owl Butterfly (Common)",
-  "Atala Butterfly (Uncommon)",
-  "Black-Tipped Diadem Butterfly (Uncommon)",
-  "Bat Wing Butterfly (Rare)",
-  "Blue Cracker Butterfly (Rare)",
+  "1x Banded Morpho Butterfly (Common) from the Forest!",
+  "1x Brazilian Owl Butterfly (Common) from the Forest!",
+  "1x Atala Butterfly (Uncommon) from the Forest!",
+  "1x Black-Tipped Diadem Butterfly (Uncommon) from the Forest!",
+  "1x Bat Wing Butterfly (Rare) from the Forest!",
+  "1x Blue Cracker Butterfly (Rare) from the Forest!",
 ];
 
 const fieldSunButterflies = [
-  "Cloudless Sulphur Butterfly (Common)",
-  "Juniper Hairstreak Butterfly (Common)",
-  "Question Mark Butterfly (Uncommon)",
-  "Monarch Butterfly (Uncommon)",
-  "Hummingbird Moth (Rare)",
-  "Giant Swallowtail Butterfly (Rare)",
+  "1x Cloudless Sulphur Butterfly (Common) from the Field!",
+  "1x Juniper Hairstreak Butterfly (Common) from the Field!",
+  "1x Question Mark Butterfly (Uncommon) from the Field!",
+  "1x Monarch Butterfly (Uncommon) from the Field!",
+  "1x Hummingbird Moth (Rare) from the Field!",
+  "1x Giant Swallowtail Butterfly (Rare) from the Field!",
 ];
 
 const fieldRainButterflies = [
-  "Bronze Copper Butterfly (Common)",
-  "Little Wood-Satyr Butterfly (Common)",
-  "Mourning Cloak Butterfly (Uncommon)",
-  "Harvester Butterfly (Uncommon)",
-  "Tiger Swallowtail Butterfly (Rare)",
-  "Red-Spotted Purple Butterfly (Rare)",
+  "Bronze Copper Butterfly (Common) from the Field!",
+  "Little Wood-Satyr Butterfly (Common) from the Field!",
+  "Mourning Cloak Butterfly (Uncommon) from the Field!",
+  "Harvester Butterfly (Uncommon) from the Field!",
+  "Tiger Swallowtail Butterfly (Rare) from the Field!",
+  "Red-Spotted Purple Butterfly (Rare) from the Field!",
 ];
 
 // rarities
