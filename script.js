@@ -2,57 +2,57 @@
 
 // butterfly sets
 const gardenSunButterflies = [
-  "1x Pink Cattleheart Butterfly (Common) from the Garden!",
-  "1x Postman Butterfly (Common) from the Garden!",
-  "1x Lacewing Butterfly (Uncommon) from the Garden!",
-  "1x Scarlet Mormon Butterfly (Uncommon) from the Garden!",
-  "1x Great Orange-tip Butterfly (Rare) from the Garden!",
-  "1x Palmfly Butterfly (Rare) from the Garden!",
+  "<strong>1x Pink Cattleheart Butterfly (Common)</strong> from the Garden!",
+  "<strong>1x Postman Butterfly (Common)</strong> from the Garden!",
+  "<strong>1x Lacewing Butterfly (Uncommon)</strong> from the Garden!",
+  "<strong>1x Scarlet Mormon Butterfly (Uncommon)</strong> from the Garden!",
+  "<strong>1x Great Orange-tip Butterfly (Rare)</strong> from the Garden!",
+  "<strong>1x Palmfly Butterfly (Rare)</strong> from the Garden!",
 ];
 
 const gardenRainButterflies = [
-  "1x Black and White Helicon Butterfly (Common) from the Garden!",
-  "1x Starry Night Cracker Butterfly (Common) from the Garden!",
-  "1x Tailed Jay Butterfly (Uncommon) from the Garden!",
-  "1x Great Eggfly Butterfly (Uncommon) from the Garden!",
-  "1x Atlas Moth (Rare) from the Garden!",
-  "1x Queen Alexandra Birdwing Butterfly (Rare) from the Garden!",
+  "<strong>1x Black and White Helicon Butterfly (Common)</strong> from the Garden!",
+  "<strong>1x Starry Night Cracker Butterfly (Common)</strong> from the Garden!",
+  "<strong>1x Tailed Jay Butterfly (Uncommon)</strong> from the Garden!",
+  "<strong>1x Great Eggfly Butterfly (Uncommon)</strong> from the Garden!",
+  "<strong>1x Atlas Moth (Rare)</strong> from the Garden!",
+  "<strong>1x Queen Alexandra Birdwing Butterfly (Rare)</strong> from the Garden!",
 ];
 
 const forestSunButterflies = [
-  "1x Rose Butterfly (Common) from the Forest!",
-  "1x Green Birdwing Butterfly (Common) from the Forest!",
-  "1x Clouded Mother-of-Pearl Butterfly (Uncommon) from the Forest!",
-  "1x Blue Pansy Butterfly (Uncommon) from the Forest!",
-  "1x Dero Clearwing Butterfly (Rare) from the Forest!",
-  "1x Forest Mother-of-Pearl Butterfly (Rare) from the Forest!",
+  "<strong>1x Rose Butterfly (Common)</strong> from the Forest!",
+  "<strong>1x Green Birdwing Butterfly (Common)</strong> from the Forest!",
+  "<strong>1x Clouded Mother-of-Pearl Butterfly (Uncommon)</strong> from the Forest!",
+  "<strong>1x Blue Pansy Butterfly (Uncommon)</strong> from the Forest!",
+  "<strong>1x Dero Clearwing Butterfly (Rare)</strong> from the Forest!",
+  "<strong>1x Forest Mother-of-Pearl Butterfly (Rare)</strong> from the Forest!",
 ];
 
 const forestRainButterflies = [
-  "1x Banded Morpho Butterfly (Common) from the Forest!",
-  "1x Brazilian Owl Butterfly (Common) from the Forest!",
-  "1x Atala Butterfly (Uncommon) from the Forest!",
-  "1x Black-Tipped Diadem Butterfly (Uncommon) from the Forest!",
-  "1x Bat Wing Butterfly (Rare) from the Forest!",
-  "1x Blue Cracker Butterfly (Rare) from the Forest!",
+  "<strong>1x Banded Morpho Butterfly (Common)</strong> from the Forest!",
+  "<strong>1x Brazilian Owl Butterfly (Common)</strong> from the Forest!",
+  "<strong>1x Atala Butterfly (Uncommon)</strong> from the Forest!",
+  "<strong>1x Black-Tipped Diadem Butterfly (Uncommon)</strong> from the Forest!",
+  "<strong>1x Bat Wing Butterfly (Rare)</strong> from the Forest!",
+  "<strong>1x Blue Cracker Butterfly (Rare)</strong> from the Forest!",
 ];
 
 const fieldSunButterflies = [
-  "1x Cloudless Sulphur Butterfly (Common) from the Field!",
-  "1x Juniper Hairstreak Butterfly (Common) from the Field!",
-  "1x Question Mark Butterfly (Uncommon) from the Field!",
-  "1x Monarch Butterfly (Uncommon) from the Field!",
-  "1x Hummingbird Moth (Rare) from the Field!",
-  "1x Giant Swallowtail Butterfly (Rare) from the Field!",
+  "<strong>1x Cloudless Sulphur Butterfly (Common)</strong> from the Field!",
+  "<strong>1x Juniper Hairstreak Butterfly (Common)</strong> from the Field!",
+  "<strong>1x Question Mark Butterfly (Uncommon)</strong> from the Field!",
+  "<strong>1x Monarch Butterfly (Uncommon)</strong> from the Field!",
+  "<strong>1x Hummingbird Moth (Rare)</strong> from the Field!",
+  "<strong>1x Giant Swallowtail Butterfly (Rare)</strong> from the Field!",
 ];
 
 const fieldRainButterflies = [
-  "Bronze Copper Butterfly (Common) from the Field!",
-  "Little Wood-Satyr Butterfly (Common) from the Field!",
-  "Mourning Cloak Butterfly (Uncommon) from the Field!",
-  "Harvester Butterfly (Uncommon) from the Field!",
-  "Tiger Swallowtail Butterfly (Rare) from the Field!",
-  "Red-Spotted Purple Butterfly (Rare) from the Field!",
+  "<strong>1x Bronze Copper Butterfly (Common)</strong> from the Field!",
+  "<strong>1x Little Wood-Satyr Butterfly (Common)</strong> from the Field!",
+  "<strong>1x Mourning Cloak Butterfly (Uncommon)</strong> from the Field!",
+  "<strong>1x Harvester Butterfly (Uncommon)</strong> from the Field!",
+  "<strong>1x Tiger Swallowtail Butterfly (Rare)</strong> from the Field!",
+  "<strong>1x Red-Spotted Purple Butterfly (Rare)</strong> from the Field!",
 ];
 
 // rarities
@@ -90,7 +90,7 @@ function gardenSun() {
         index: itemIndex,
       };
       const logEntry = document.createElement("div");
-      logEntry.textContent = `${
+      logEntry.innerHTML = `${
         document.getElementById("results").children.length + 1
       }. ${result.item}`;
       document.getElementById("results").appendChild(logEntry);
@@ -138,7 +138,7 @@ function gardenRain() {
         index: itemIndex,
       };
       const logEntry = document.createElement("div");
-      logEntry.textContent = `${
+      logEntry.innerHTML = `${
         document.getElementById("results").children.length + 1
       }. ${result.item}`;
       document.getElementById("results").appendChild(logEntry);
@@ -187,7 +187,7 @@ function forestSun() {
         index: itemIndex,
       };
       const logEntry = document.createElement("div");
-      logEntry.textContent = `${
+      logEntry.innerHTML = `${
         document.getElementById("results").children.length + 1
       }. ${result.item}`;
       document.getElementById("results").appendChild(logEntry);
@@ -235,7 +235,7 @@ function forestRain() {
         index: itemIndex,
       };
       const logEntry = document.createElement("div");
-      logEntry.textContent = `${
+      logEntry.innerHTML = `${
         document.getElementById("results").children.length + 1
       }. ${result.item}`;
       document.getElementById("results").appendChild(logEntry);
@@ -282,7 +282,7 @@ function fieldSun() {
         index: itemIndex,
       };
       const logEntry = document.createElement("div");
-      logEntry.textContent = `${
+      logEntry.innerHTML = `${
         document.getElementById("results").children.length + 1
       }. ${result.item}`;
       document.getElementById("results").appendChild(logEntry);
@@ -330,7 +330,7 @@ function fieldRain() {
         index: itemIndex,
       };
       const logEntry = document.createElement("div");
-      logEntry.textContent = `${
+      logEntry.innerHTML = `${
         document.getElementById("results").children.length + 1
       }. ${result.item}`;
       document.getElementById("results").appendChild(logEntry);
